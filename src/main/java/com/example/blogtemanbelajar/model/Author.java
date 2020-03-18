@@ -9,7 +9,7 @@ import javax.persistence.Id;
 @Entity
 public class Author extends AuditModel {
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Column(length = 45)
