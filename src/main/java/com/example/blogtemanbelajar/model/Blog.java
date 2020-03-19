@@ -71,6 +71,9 @@ public class Blog extends AuditModel {
     @Column(length = 150)
     private String title;
 
+    @Column(length = 50)
+    private String image;
+
     @Column(columnDefinition = "TEXT")
     private String content;
 
